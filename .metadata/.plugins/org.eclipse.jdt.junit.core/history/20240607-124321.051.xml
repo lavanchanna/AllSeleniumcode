@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="09March2024BDDCucumberProject" tests="3" started="3" failures="3" errors="0" ignored="0">
+  <testsuite name="runner.TestRunner" time="45.379">
+    <testsuite name="Customer" time="45.379">
+      <testcase name="Add New Customer #1" classname="Customer" time="16.619">
+        <failure>java.lang.AssertionError: expected [Add a new customer] but found [Add a new customer back to customer list]&#13;
+	at org.testng.Assert.fail(Assert.java:96)&#13;
+	at org.testng.Assert.failNotEquals(Assert.java:776)&#13;
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:118)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:453)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:463)&#13;
+	at stepDefinations.StepDefination.user_verify_add_new_customer_page(StepDefination.java:110)&#13;
+	at ✽.User verify Add new customer page "Add a new customer"(file:///C:/Users/043479744/eclipse-workspace/09March2024BDDCucumberProject/./Features/AddNewCust.feature:12)&#13;
+&#13;
+</failure>
+      </testcase>
+      <testcase name="Add New Customer #2" classname="Customer" time="14.696">
+        <failure>java.lang.AssertionError: expected [Add a new customer] but found [Add a new customer back to customer list]&#13;
+	at org.testng.Assert.fail(Assert.java:96)&#13;
+	at org.testng.Assert.failNotEquals(Assert.java:776)&#13;
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:118)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:453)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:463)&#13;
+	at stepDefinations.StepDefination.user_verify_add_new_customer_page(StepDefination.java:110)&#13;
+	at ✽.User verify Add new customer page "Add a new customer"(file:///C:/Users/043479744/eclipse-workspace/09March2024BDDCucumberProject/./Features/AddNewCust.feature:12)&#13;
+&#13;
+</failure>
+      </testcase>
+      <testcase name="Add New Customer #3" classname="Customer" time="14.058">
+        <failure>java.lang.AssertionError: expected [Add a new customer] but found [Add a new customer back to customer list]&#13;
+	at org.testng.Assert.fail(Assert.java:96)&#13;
+	at org.testng.Assert.failNotEquals(Assert.java:776)&#13;
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:118)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:453)&#13;
+	at org.testng.Assert.assertEquals(Assert.java:463)&#13;
+	at stepDefinations.StepDefination.user_verify_add_new_customer_page(StepDefination.java:110)&#13;
+	at ✽.User verify Add new customer page "Add a new customer"(file:///C:/Users/043479744/eclipse-workspace/09March2024BDDCucumberProject/./Features/AddNewCust.feature:12)&#13;
+&#13;
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,86 @@
+package Test;
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+
+public class day3 {
+	
+	@Parameters({"URL"})
+	@Test
+	public void webLoginCarLoan()
+	{
+		System.out.println("webLoginCarLoan");
+		//selenium
+	}
+	@Test(enabled=false)
+	public void mobileLoginCarLoan()
+	{
+		System.out.println("mobileLoginCarLoan");
+		//Appium
+	}
+	
+	@Test(groups=("Smoke"))
+	public void mobileSiginCarLoan()
+	{
+		System.out.println("mobileSigninCarLoan");
+		//Appium
+	}
+	@Test(groups=("Smoke"))
+	public void mobileLogoutCarLoan()
+	{
+		System.out.println("mobileLogoutCarLoan");
+		//Appium
+	}
+
+	@Test(dependsOnMethods = {"webLoginCarLoan"})
+	public void apiLoginCarLoan()
+	{
+		System.out.println("apiLoginCarLoan");
+		//Rest API Automation
+	}
+	@Test(timeOut=4000)// This timeOUt will wait for 4 sec till it through out error
+		public void apiLogoutCarLoan()
+	{
+		System.out.println("apiLoginCarLoan");
+		//Rest API Automation
+	}
+	@BeforeSuite
+	public void bsuite()
+	{
+		System.out.println("This Before Suite will be excuted first before all day3 methods");
+		
+	}
+	@BeforeMethod
+	public void bmethod()
+	{
+		System.out.println("This Before Method will be excuted first");
+		
+	}
+	@AfterMethod
+	public void amethod()
+	{
+		System.out.println("This After Method will be excuted after each method in Day3");
+		
+	}
+	@BeforeClass
+	public void bclass()
+	{
+		System.out.println("This Before class will be excuted before any methods in the class");
+		
+	}
+	@AfterClass
+	public void aclass()
+	{
+		System.out.println("This After class will be excuted after any methods in the class");
+		
+	}
+	
+	
+	
+
+}

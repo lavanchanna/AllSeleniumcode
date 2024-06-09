@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="15" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-24T19:00:46 IST" name="Loan Department" finished-at="2024-05-24T19:00:46 IST" duration-ms="188">
+    <groups>
+      <group name="Smoke">
+        <method signature="day1.demo()[pri:0, instance:Test.day1@16610890]" name="demo" class="Test.day1"/>
+        <method signature="day2.day2demo2(java.lang.String,java.lang.String)[pri:0, instance:Test.day2@3232a28a]" name="day2demo2" class="Test.day2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-05-24T19:00:46 IST" name="Personal Loan Module" finished-at="2024-05-24T19:00:46 IST" duration-ms="45">
+      <class name="Test.day1">
+        <test-method signature="demo()[pri:0, instance:Test.day1@16610890]" started-at="2024-05-24T19:00:46 IST" name="demo" finished-at="2024-05-24T19:00:46 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="lastexecution()[pri:0, instance:Test.day1@16610890]" started-at="2024-05-24T19:00:46 IST" name="lastexecution" finished-at="2024-05-24T19:00:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecution -->
+      </class> <!-- Test.day1 -->
+      <class name="Test.day2">
+        <test-method is-config="true" signature="prerequisite()[pri:0, instance:Test.day2@3232a28a]" started-at="2024-05-24T19:00:46 IST" name="prerequisite" finished-at="2024-05-24T19:00:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method signature="day2demo2(java.lang.String,java.lang.String)[pri:0, instance:Test.day2@3232a28a]" started-at="2024-05-24T19:00:46 IST" name="day2demo2" finished-at="2024-05-24T19:00:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personaloan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day2demo2 -->
+      </class> <!-- Test.day2 -->
+    </test> <!-- Personal Loan Module -->
+    <test started-at="2024-05-24T19:00:46 IST" name="Car Loan" finished-at="2024-05-24T19:00:46 IST" duration-ms="29">
+      <class name="Test.day3">
+        <test-method is-config="true" signature="bclass()[pri:0, instance:Test.day3@27f981c6]" started-at="2024-05-24T19:00:46 IST" name="bclass" finished-at="2024-05-24T19:00:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclass -->
+        <test-method is-config="true" signature="bmethod()[pri:0, instance:Test.day3@27f981c6]" started-at="2024-05-24T19:00:46 IST" name="bmethod" finished-at="2024-05-24T19:00:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="apiLogoutCarLoan()[pri:0, instance:Test.day3@27f981c6]" started-at="2024-05-24T19:00:46 IST" name="apiLogoutCarLoan" finished-at="2024-05-24T19:00:46 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLogoutCarLoan -->
+        <test-method is-config="true" signature="amethod()[pri:0, instance:Test.day3@27f981c6]" started-at="2024-05-24T19:00:46 IST" name="amethod" finished-at="2024-05-24T19:00:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amethod -->
+        <test-method is-config="true" signature="bmethod()[pri:0, instance:Test.day3@27f981c6]" started-at="2024-05-24T19:00:46 IST" name="bmethod" finished-at="2024-05-24T19:00:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="apiLogoutCarLoan1(java.lang.String,java.lang.String)[pri:0, instance:Test.day3@27f981c6]" started-at="2024-05-24T19:00:46 IST" name="apiLogoutCarLoan1" data-provider="getData" finished-at="2024-05-24T19:00:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetuname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLogoutCarLoan1 -->
+        <test-method is-config="true" signature="amethod()[pri:0, instance:Test.day3@27f981c6]" started-at="2024-05-24T19:00:46 IST" name="amethod" finished-at="2024-05-24T19:00:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amethod -->
+        <test-method is-config="true" signature="bmethod()[pri:0, instance:Test.day3@27f981c6]" started-at="2024-05-24T19:00:46 IST" name="bmethod" finished-at="2024-05-24T19:00:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="apiLogoutCarLoan1(java.lang.String,java.lang.String)[pri:0, instance:Test.day3@27f981c6]" started-at="2024-05-24T19:00:46 IST" name="apiLogoutCarLoan1" data-provider="getData" finished-at="2024-05-24T19:00:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetuname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLogoutCarLoan1 -->
+        <test-method is-config="true" signature="bmethod()[pri:0, instance:Test.day3@27f981c6]" started-at="2024-05-24T19:00:46 IST" name="bmethod" finished-at="2024-05-24T19:00:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method is-config="true" signature="amethod()[pri:0, instance:Test.day3@27f981c6]" started-at="2024-05-24T19:00:46 IST" name="amethod" finished-at="2024-05-24T19:00:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amethod -->
+        <test-method signature="apiLogoutCarLoan1(java.lang.String,java.lang.String)[pri:0, instance:Test.day3@27f981c6]" started-at="2024-05-24T19:00:46 IST" name="apiLogoutCarLoan1" data-provider="getData" finished-at="2024-05-24T19:00:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetuname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLogoutCarLoan1 -->
+        <test-method is-config="true" signature="amethod()[pri:0, instance:Test.day3@27f981c6]" started-at="2024-05-24T19:00:46 IST" name="amethod" finished-at="2024-05-24T19:00:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amethod -->
+        <test-method is-config="true" signature="bmethod()[pri:0, instance:Test.day3@27f981c6]" started-at="2024-05-24T19:00:46 IST" name="bmethod" finished-at="2024-05-24T19:00:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="webLoginCarLoan(java.lang.String)[pri:0, instance:Test.day3@27f981c6]" started-at="2024-05-24T19:00:46 IST" name="webLoginCarLoan" finished-at="2024-05-24T19:00:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCarLoan -->
+        <test-method is-config="true" signature="amethod()[pri:0, instance:Test.day3@27f981c6]" started-at="2024-05-24T19:00:46 IST" name="amethod" finished-at="2024-05-24T19:00:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amethod -->
+        <test-method is-config="true" signature="bmethod()[pri:0, instance:Test.day3@27f981c6]" started-at="2024-05-24T19:00:46 IST" name="bmethod" finished-at="2024-05-24T19:00:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="apiLoginCarLoan()[pri:0, instance:Test.day3@27f981c6]" started-at="2024-05-24T19:00:46 IST" name="apiLoginCarLoan" finished-at="2024-05-24T19:00:46 IST" depends-on-methods="Test.day3.webLoginCarLoan" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLoginCarLoan -->
+        <test-method is-config="true" signature="aclass()[pri:0, instance:Test.day3@27f981c6]" started-at="2024-05-24T19:00:46 IST" name="aclass" finished-at="2024-05-24T19:00:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aclass -->
+        <test-method is-config="true" signature="amethod()[pri:0, instance:Test.day3@27f981c6]" started-at="2024-05-24T19:00:46 IST" name="amethod" finished-at="2024-05-24T19:00:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amethod -->
+      </class> <!-- Test.day3 -->
+    </test> <!-- Car Loan -->
+    <test started-at="2024-05-24T19:00:46 IST" name="Home Loan" finished-at="2024-05-24T19:00:46 IST" duration-ms="6">
+      <class name="Test.day1">
+        <test-method is-config="true" signature="bsuite()[pri:0, instance:Test.day1@16610890]" started-at="2024-05-24T19:00:46 IST" name="bsuite" finished-at="2024-05-24T19:00:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsuite -->
+      </class> <!-- Test.day1 -->
+      <class name="Test.day3">
+        <test-method is-config="true" signature="bsuite()[pri:0, instance:Test.day3@27f981c6]" started-at="2024-05-24T19:00:46 IST" name="bsuite" finished-at="2024-05-24T19:00:46 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsuite -->
+      </class> <!-- Test.day3 -->
+      <class name="Test.day4">
+        <test-method signature="apiLoginHomeLoan()[pri:0, instance:Test.day4@4efac082]" started-at="2024-05-24T19:00:46 IST" name="apiLoginHomeLoan" finished-at="2024-05-24T19:00:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLoginHomeLoan -->
+        <test-method signature="mobileLoginHomeLoan()[pri:0, instance:Test.day4@4efac082]" started-at="2024-05-24T19:00:46 IST" name="mobileLoginHomeLoan" finished-at="2024-05-24T19:00:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHomeLoan -->
+        <test-method signature="webLoginHomeLoan(java.lang.String)[pri:0, instance:Test.day4@4efac082]" started-at="2024-05-24T19:00:46 IST" name="webLoginHomeLoan" finished-at="2024-05-24T19:00:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Homeloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginHomeLoan -->
+      </class> <!-- Test.day4 -->
+    </test> <!-- Home Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

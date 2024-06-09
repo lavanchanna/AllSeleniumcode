@@ -1,0 +1,17 @@
+package Collection;
+
+import java.util.HashMap;
+
+public class hashMap1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// Hashmap store the values with the help of key and value pair
+		//Insert the element with the help of put method
+		HashMap<String, String> map=new HashMap<String, String>();
+		map.put("Country", "India");
+
+}
+}
+

@@ -1,0 +1,10 @@
+package Test;
+
+import org.testng.ITestListener;
+
+//ITestListener is interface which implements Testing listners
+
+public class listners implements ITestListener{
+
+	
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-22T12:28:45 IST" name="Default suite" finished-at="2024-05-22T12:28:45 IST" duration-ms="75">
+    <groups>
+    </groups>
+    <test started-at="2024-05-22T12:28:45 IST" name="Default test" finished-at="2024-05-22T12:28:45 IST" duration-ms="75">
+      <class name="Stream1">
+        <test-method signature="streamCollect()[pri:0, instance:Stream1@201a4587]" started-at="2024-05-22T12:28:45 IST" name="streamCollect" finished-at="2024-05-22T12:28:45 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- streamCollect -->
+        <test-method signature="streamFilter()[pri:0, instance:Stream1@201a4587]" started-at="2024-05-22T12:28:45 IST" name="streamFilter" finished-at="2024-05-22T12:28:45 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- streamFilter -->
+        <test-method signature="streamMap()[pri:0, instance:Stream1@201a4587]" started-at="2024-05-22T12:28:45 IST" name="streamMap" finished-at="2024-05-22T12:28:45 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- streamMap -->
+      </class> <!-- Stream1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

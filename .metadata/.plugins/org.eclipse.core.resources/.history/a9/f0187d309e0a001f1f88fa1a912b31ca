@@ -1,0 +1,19 @@
+package javapackage;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class TestNG6 {
+	@Test
+	public void testcase1()
+	{
+		int a=30;
+		int b=20;
+		String actualTitle="Facebook";
+		String expectedTitle="facebook";
+		Assert.assertTrue(a>b); //True>>assert pass
+		System.out.println("assertion will get verify");
+		System.out.println("assertion checked");
+	}
+
+}

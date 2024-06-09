@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="09March2024BDDCucumberProject" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="runner.TestRunner" time="45.121">
+    <testsuite name="Customer" time="45.121">
+      <testcase name="Add New Customer #1" classname="Customer" time="16.113"/>
+      <testcase name="Add New Customer #2" classname="Customer" time="13.687"/>
+      <testcase name="Add New Customer #3" classname="Customer" time="15.321"/>
+    </testsuite>
+  </testsuite>
+</testrun>

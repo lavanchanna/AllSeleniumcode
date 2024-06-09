@@ -1,0 +1,12 @@
+package javapackage;
+
+public class TestNG1 {
+	
+	@Test
+	public void bali()
+	{
+		System.out.println("This is bali test case method");
+	}
+	
+
+}

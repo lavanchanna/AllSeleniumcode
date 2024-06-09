@@ -1,0 +1,11 @@
+package snippet;
+
+public class Snippet {
+	@Test
+	public void mobileLoginCarLoan()
+	{
+		System.out.println("mobileLoginCarLoan");
+		//Appium
+	}
+}
+

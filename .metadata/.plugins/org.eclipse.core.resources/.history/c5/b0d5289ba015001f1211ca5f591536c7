@@ -1,0 +1,19 @@
+package javapackage;
+
+import java.util.Arrays;
+
+public class secondHighestNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a[]= {10,20,30,40,50};
+
+		
+		
+	}
+	public static void secondHighest(int a[], int total)
+	{
+		Arrays.sort(a);
+	}
+
+}

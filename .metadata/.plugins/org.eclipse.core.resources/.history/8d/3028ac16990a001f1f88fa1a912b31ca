@@ -1,0 +1,13 @@
+package javapackage;
+
+import org.testng.annotations.Test;
+
+public class TestNG3 {
+
+    @Test 
+	public void a()
+	{
+	System.out.println("This is a test case method");	
+	}
+    
+}

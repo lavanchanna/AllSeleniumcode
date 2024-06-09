@@ -1,0 +1,27 @@
+package javapackage;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class TestNG6 {
+	@Test
+	public void testcase1()
+	{
+		int a=30;
+		int b=20;
+		String actualTitle="Facebook";
+		String expectedTitle="facebook";
+		Assert.assertTrue(a>b); //True>>assert pass, next line of codes will execute
+		System.out.println("assertion will get verify");
+		System.out.println("assertion checked");
+		//Assert.assertTrue(a<b); //false>>expected code> assert failed,terminated directly next line of codes will not execute
+		//System.out.println("assertion will get verify");
+		//System.out.println("assertion checked");
+		Assert.assertEquals(actualTitle, expectedTitle);// failed, because both strings not equal, this is hard assert
+		System.out.println("assertion will get verify");
+		System.out.println("assertion checked");
+		
+		
+	}
+
+}

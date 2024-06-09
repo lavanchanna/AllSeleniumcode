@@ -1,0 +1,14 @@
+package utilities;
+
+import java.util.Properties;
+
+public class ReadConfig {
+
+	Properties properties;
+	String path="config.properties";
+	
+	public ReadConfig()
+	{
+		
+	}
+}
